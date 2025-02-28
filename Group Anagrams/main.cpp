@@ -6,7 +6,6 @@
 
 #include <string>
 
-
 // ------------------------------ Algorithm 1 Prototypes -----------------------------------------
 
 // First algorithm used to collect anagrams.  This algorithm uses the sorting technique
