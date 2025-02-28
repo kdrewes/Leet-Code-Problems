@@ -12,16 +12,15 @@
 // First algorithm used to collect anagrams.  This algorithm uses the sorting technique
 std::vector<std::vector<std::string>> Algorithm_1(std::vector<std::string> strs);
 
-// Checks each index of each collected anagram to determine if anagram has already been collected
-bool checkIndex(int index, std::vector<std::vector<int>> AnagramIndex);
-
 // ------------------------------ Algorithm 2 Prototypes -----------------------------------------
 
 // Second algorithm used to collect anagrams.  This algorithm retreive asccii value of each string
 std::vector<std::vector<std::string>> Algorithm_2(std::vector<std::string> strs);
 
+// --------------------------------- Global Prototypes --------------------------------------------
 
-// --------------------------------- Global Prototype --------------------------------------------
+// Checks each index of each collected anagram to determine if anagram has already been collected
+bool checkIndex(int index, std::vector<std::vector<int>> AnagramIndex);
 
 // Display results of each algorithm
 void Print(std::string header, std::vector<std::vector<std::string>>);
